@@ -1,0 +1,36 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+# Biometric and private data
+data/*
+!data/.gitkeep
+test_images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.npy
+*.npz
+*.onnx
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.sqlite
+*.db
+models/
+# Editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
